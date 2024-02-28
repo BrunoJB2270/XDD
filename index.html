@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C84</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+<!--Abre la etiqueta para centrar los elementos-->
+<center>
+
+<h3 style="margin-top: 20px; margin-bottom: 20px;">
+	Lista de alumnos en clase </h3>
+
+<!--Crear una etiqueta div que contenga todos los campos de entrada-->
+<div>
+
+<!--Crear un Span que contenga la numeración de cada alumno-->
+<span>1</span>
+<br>
+<input type= "text" placeholder="nombre de alumno" id="nombre_alumno_1"> 
+<br>
+<!--En total serán 4 alumnos-->
+<span>2</span>
+<br>
+<input type= "text" placeholder="nombre de alumno" id="nombre_alumno_2"> 
+<br>
+<span>3</span>
+<br>
+<input type= "text" placeholder="nombre de alumno" id="nombre_alumno_3"> 
+<br>
+<span>4</span>
+<br>
+<input type= "text" placeholder="nombre de alumno" id="nombre_alumno_4"> 
+<br>
+<!--Crear un botón con la función onclick="submit()". El botón se llamará Enviar-->
+<button onclick="submit()">enviar</button>
+
+<!--Colocar el id "ver_nombre" para colocar los nombres de los alumnos-->
+<div id="ver_nombre" style="font-weight: bold;" ></div>
+
+</div>
+</center>
+</body>
+</html>
